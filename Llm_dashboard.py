@@ -6,7 +6,7 @@ import requests
 from io import StringIO
 import os
 
-# ---------------- Load Data with Error Handling ----------------
+
 @st.cache_data
 def load_data():
     """Load data with fallback options and error handling"""
